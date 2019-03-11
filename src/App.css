@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    height: 50px;
+    color: white;
+    background: blue;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+    
+    .index{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.index div{
+    flex: 1;
+}
+.index footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ccc;
+}
