@@ -7,7 +7,7 @@ class Cart extends React.Component{
     render(){
         return(
             <div>
-                <header>购物车</header>
+                <header className="header1">购物车</header>
                 <Router>
                     <div>
                        

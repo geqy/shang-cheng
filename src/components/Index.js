@@ -5,6 +5,7 @@ import Home from "./Home";
 import Fenlei from "./Fenlei";
 import Cart from "./Cart";
 import My from "./My";
+import Regist from "./Regist";
 
 import 'antd-mobile/dist/antd-mobile.css';
 
@@ -19,7 +20,8 @@ class Index extends React.Component {
 						<Route path="/fenlei" component={Fenlei}></Route>
 						<Route path="/cart" component={Cart}></Route>
 						<Route path="/my" component={My}></Route>
-                        <Redirect to="/home"/>
+						<Route path="/regist" component={Regist}></Route>
+                      <Redirect to="/my"/>
 					</Switch>
 					
 					<footer>

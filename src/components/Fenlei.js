@@ -7,7 +7,7 @@ class Fenlei extends React.Component{
     render(){
         return(
             <div>
-                <header>分类</header>
+                <header className="header1">分类</header>
                 <Router>
                     <div>
                        

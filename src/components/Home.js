@@ -7,8 +7,7 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <header>首页111222</header>
-                
+                <header className="header1">首页</header>
             </div>
         )
     }
