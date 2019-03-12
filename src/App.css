@@ -10,16 +10,16 @@ a{
     color: black;
 }
 header{
-    height: 50px;
+    height: 44px;
     color: white;
-    background: blue;
+  /*  background: blue;*/
     text-align: center;
-    line-height: 40px;
+    line-height: 44px;
 }
 
 
     
-    .index{
+.index{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,9 +28,12 @@ header{
     flex: 1;
 }
 .index footer{
-    height: 50px;
+    height: 44px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: #ccc;
+}
+.index footer i{
+	margin-left: 6px;
 }

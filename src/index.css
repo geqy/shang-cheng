@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/*引入图标*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+ }
+    
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1081102 */
+  src: url('//at.alicdn.com/t/font_1081102_93a832xok9.eot');
+  src: url('//at.alicdn.com/t/font_1081102_93a832xok9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1081102_93a832xok9.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1081102_93a832xok9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1081102_93a832xok9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1081102_93a832xok9.svg#iconfont') format('svg');
+}

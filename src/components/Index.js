@@ -6,8 +6,6 @@ import Fenlei from "./Fenlei";
 import Cart from "./Cart";
 import My from "./My";
 
-import 'antd-mobile/dist/antd-mobile.css';
-
 class Index extends React.Component {
 	render() {
 		return(
@@ -19,24 +17,26 @@ class Index extends React.Component {
 						<Route path="/fenlei" component={Fenlei}></Route>
 						<Route path="/cart" component={Cart}></Route>
 						<Route path="/my" component={My}></Route>
+                           
                         <Redirect to="/home"/>
+						
 					</Switch>
 					
 					<footer>
 						<NavLink to="/home">
-							<i>1</i>
+							<i className="iconfont">&#xe619;</i>
 							<p>首页</p>
 						</NavLink>
 						<NavLink to="/fenlei">
-							<i>2</i>
+							<i className="iconfont">&#xe603;</i>
 							<p>分类</p>
 						</NavLink>
 						<NavLink to="/cart">
-							<i>3</i>
+							<i className="iconfont">&#xe726;</i>
 							<p>购物车</p>
 						</NavLink>
 						<NavLink to="/my">
-							<i>4</i>
+							<i className="iconfont">&#xe600;</i>
 							<p>我的</p>
 						</NavLink>
 						
@@ -51,4 +51,3 @@ class Index extends React.Component {
 	}
 }
 export default Index;
-//Switch内渲染的是home页面，只看这个页面就行

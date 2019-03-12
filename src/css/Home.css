@@ -1,0 +1,22 @@
+
+
+.heard{
+	width: 80%;
+}
+
+.tub{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #ccc;
+}
+
+/*.heard{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	height: 44px;
+	position: fixed;
+	
+}*/

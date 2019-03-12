@@ -1,21 +1,50 @@
 import React from 'react';
+import aa from "../img/tou.png"
+import bb from "../img/xie.png"
+import '../css/Fenlei.css';
+import { NavLink, BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
+import { SearchBar, Button, WhiteSpace, WingBlank } from 'antd-mobile';
 
-import {NavLink,BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom'
-
-
-class Fenlei extends React.Component{
-    render(){
-        return(
-            <div>
-                <header>分类</header>
+class Fenlei extends React.Component {
+	render() {
+		return(
+			<div className="title">
+                <header>
+					<SearchBar placeholder="Search" maxLength={8} />
+                </header>
                 <Router>
-                    <div>
+                    <div  className="title-a">
+                       	<div className="biao-a">
+                       		<span><img src={aa} className="aa" alt="aa" /></span>
+                       		<span>衣裤</span>
+                       	</div>
                        
+                       	<div className="biao-b">
+                       		<span><img src={bb} className="bb" alt="bb" /></span>
+                       		<span>
+                       			<p>鞋靴</p>
+                       			<p>千里之外,始于脚下</p>
+                       		</span>
+                       		<span>
+                       			>
+                       		</span>
+                       	</div>
+                       	<div className="biao-b">
+                       		<span><img src={bb} className="bb" alt="bb" /></span>
+                       		<span>
+                       			<p>鞋靴</p>
+                       			<p>千里之外,始于脚下</p>
+                       		</span>
+                       		<span>
+                       			>
+                       		</span>
+                       	</div> 
                     </div>
+                    
                 </Router>
             </div>
-        )
-    }
+		)
+	}
 }
 
 export default Fenlei;
