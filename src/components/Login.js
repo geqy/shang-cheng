@@ -9,7 +9,7 @@ class Login extends React.Component{
 	render(){
 		return(
 			<div>
-				<header>登录</header>
+				<header>登录3333</header>
 				
                 <button onClick={this.login.bind(this)}>登陆</button>
 						
