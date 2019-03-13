@@ -9,31 +9,32 @@ a{
     text-decoration: none;
     color: black;
 }
-header{
+/*header{
     height: 44px;
     color: white;
-  /*  background: blue;*/
+    background: blue;
     text-align: center;
     line-height: 44px;
-}
+}*/
 
-
-    
+  
 .index{
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
-.index div{
+.index>div{
     flex: 1;
+    overflow: auto;
 }
-.index footer{
-    height: 44px;
+.index>footer{
+    height: 0.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #ccc;
+    background: white;
 }
-.index footer i{
-	margin-left: 6px;
+.index>footer i{
+	margin-left:0.1rem;
+	z-index: 5;
 }

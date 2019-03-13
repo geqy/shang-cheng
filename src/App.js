@@ -4,7 +4,7 @@ import './App.css';
 import {NavLink,BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom'
 
 import Index from './components/Index'
-
+import List from './components/List'
 class App extends Component {
   render() {
     return (
@@ -13,7 +13,8 @@ class App extends Component {
       		<div>
       			<Switch>
       				<Route path="/index" component={Index}></Route>
-
+      				<Route path="/list" component={List}></Route>
+							
               <Redirect to="/index"/>
       				
       			</Switch>

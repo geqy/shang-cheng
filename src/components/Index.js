@@ -18,8 +18,7 @@ class Index extends React.Component {
 						<Route path="/cart" component={Cart}></Route>
 						<Route path="/my" component={My}></Route>
                            
-                        <Redirect to="/home"/>
-						
+                        <Redirect to="/home"/>						
 					</Switch>
 					
 					<footer>
