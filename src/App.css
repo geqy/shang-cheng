@@ -9,28 +9,41 @@ a{
     text-decoration: none;
     color: black;
 }
+<<<<<<< HEAD
 .header1{
     height: 50px;
+=======
+/*header{
+    height: 44px;
+>>>>>>> 0b13b00e087dbe19b75176c7afe113315319669f
     color: white;
     background: blue;
     text-align: center;
-    line-height: 40px;
-}
+    line-height: 44px;
+}*/
 
-
-    
-    .index{
+  
+.index{
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 .index>div{
     flex: 1;
+    overflow: auto;
 }
 .index>footer{
+<<<<<<< HEAD
     height: 50px;
+=======
+    height: 0.7rem;
+>>>>>>> 0b13b00e087dbe19b75176c7afe113315319669f
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #ccc;
+    background: white;
+}
+.index>footer i{
+	margin-left:0.1rem;
+	z-index: 5;
 }

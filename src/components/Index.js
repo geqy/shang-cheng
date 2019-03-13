@@ -7,8 +7,6 @@ import Cart from "./Cart";
 import My from "./My";
 import Regist from "./Regist";
 
-import 'antd-mobile/dist/antd-mobile.css';
-
 class Index extends React.Component {
 	render() {
 		return(
@@ -16,29 +14,38 @@ class Index extends React.Component {
 				<Router>
 				  <div className='index'>
 					<Switch>
+<<<<<<< HEAD
 						<Route path="/home" component={Home}></Route>
 						<Route path="/fenlei" component={Fenlei}></Route>
 						<Route path="/cart" component={Cart}></Route>
 						<Route path="/my" component={My}></Route>
 						<Route path="/regist" component={Regist}></Route>
                       <Redirect to="/my"/>
+=======
+						<Route path="/index/home" component={Home}></Route>
+						<Route path="/index/fenlei" component={Fenlei}></Route>
+						<Route path="/index/cart" component={Cart}></Route>
+						<Route path="/index/my" component={My}></Route>
+                           
+                        <Redirect to="/index/home"/>						
+>>>>>>> 0b13b00e087dbe19b75176c7afe113315319669f
 					</Switch>
 					
 					<footer>
-						<NavLink to="/home">
-							<i>1</i>
+						<NavLink to="/index/home">
+							<i className="iconfont">&#xe619;</i>
 							<p>首页</p>
 						</NavLink>
-						<NavLink to="/fenlei">
-							<i>2</i>
+						<NavLink to="/index/fenlei">
+							<i className="iconfont">&#xe603;</i>
 							<p>分类</p>
 						</NavLink>
-						<NavLink to="/cart">
-							<i>3</i>
+						<NavLink to="/index/cart">
+							<i className="iconfont">&#xe726;</i>
 							<p>购物车</p>
 						</NavLink>
-						<NavLink to="/my">
-							<i>4</i>
+						<NavLink to="/index/my">
+							<i className="iconfont">&#xe600;</i>
 							<p>我的</p>
 						</NavLink>
 						
@@ -53,4 +60,3 @@ class Index extends React.Component {
 	}
 }
 export default Index;
-//Switch内渲染的是home页面，只看这个页面就行

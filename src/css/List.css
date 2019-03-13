@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+    height: 0.7rem;
+    display: flex !important; 
+    align-items: center;
+    background: red;
+    position: fixed;
+}
+header .span-a{
+
+    margin-left: 0.25rem;
+}
+header .span-b{
+    margin-left: 38%;
+}
+section{
+	height: 100vh;
+	overflow: auto;
+	
+	
+}
+
+.sec{
+	width: 100%;
+	display: flex !important;
+
+	
+	justify-content: space-around;
+}
+.sec1{
+	margin-top: 0.7rem;
+	
+}
+.tu-j{
+	width: 3rem;
+	height: 4rem;
+	border: 1px solid saddlebrown;
+}
+.tu-j>div{
+	display: flex;
+	justify-content: space-around;
+}
+.tu-j>div img{
+	width: 3rem;
+	height: 3.2rem;
+	margin:0 0.1rem;
+	border-radius: 0.2rem 0.2rem 0 0;
+	
+}
+.tu-j p{
+	margin: 0.1rem;
+}
+.tu-j p:last-child{
+	
+	color: #FF0000;
+}

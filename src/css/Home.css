@@ -1,0 +1,149 @@
+
+
+.home{
+	height: 100vh;
+}
+
+.home>header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 0.7rem;
+	background: #ccc;	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.home>header span{
+	position: fixed;
+	left:0.2rem ;
+	color: #CCCCCC;
+	font-size: 0.2rem;
+}
+.home>header p{
+	width: 15%;
+	font-size: 0.5rem;
+	text-align: center;
+}
+.home>header input{
+	padding-left:0.5rem;
+	border-radius: 0.15rem;
+	width: 80%;
+	height: 72%;
+	border: none;
+	touch-action: none;
+	background: #FFFFFF;
+}
+
+
+
+
+.home section .banner{
+	margin-top: 0.7rem;
+}.
+.am-wingblank{
+	width: 100%;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.am-wingblank.am-wingblank-lg{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	}
+
+
+section{
+	height: 100vh;
+	overflow: auto;
+}
+section .bir{
+	border:solid 0.08rem rgba(142, 124, 124, 0.1);
+}
+section .bir-a{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 0.8rem;
+	/*background: greenyellow;*/
+}
+section .bir-a p{
+	
+	width: 0.7rem;
+	height: 0.02rem;
+	background: #000000;
+	/*position: fixed;*/
+}
+section .bir-a>p:first-child{
+	margin-left:1.3rem ;
+}
+section .bir-a>p:last-child{
+	margin-right:1.3rem ;
+}
+section .chao span{
+	width: 100%;
+	
+}
+section .chao span img{
+	width: 90%;
+	margin: 3% 5%;
+}
+.xin{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 1.8rem;
+/*	background: greenyellow;*/
+}
+.xin span img{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.lunbo{
+	width: 100%;
+	
+	/*background: olive;*/
+	justify-content: space-around;
+	flex: 1;
+	overflow: auto;
+	display: flex;
+	
+}
+.lunbo>.top-a{
+	justify-content: space-around;
+	    justify-content: flex-start;
+	/*flex: 1;*/
+	overflow-x:auto;
+	
+	.element::-webkit-scrollbar {display:none}
+	display: flex;
+	width: 100%;
+	height: 2rem;
+
+}
+
+.lunbo>.top-a >div{
+    margin-left: 0.2rem;
+	align-items: center;
+	
+	display: flex;
+	
+}
+
+.lunbo>.top-a div span p{
+	width: 1.3rem;
+	margin-top: 0.1rem;
+}
+.lunbo>.top-a>div p:last-child{
+	color: #FF0000;
+	
+}
+.lunbo>.top-a div span img{
+	width: 1.17rem;
+	height: 0.8rem;
+}
