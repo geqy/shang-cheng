@@ -72,27 +72,3 @@ export default Cart;
 
 
 
-/* {/*<Router>
-               		<div className='jiaru'>
-               			<div>
-               				<input type="checkbox" checked={true} onChange={this.changeitem.bind(this)}/>
-               				<img src={aa}/>
-               				        <List.Item
-								          wrap
-								          extra={
-								            <Stepper
-								              style={{ width: '100%', minWidth: '100px' }}
-								              showNumber
-								              max={10}
-								              min={1}
-								              value={this.state.val}
-								              onChange={this.onChange}
-								            />}
-								        >
-								        Show number value
-								    </List.Item>
- 
-               			</div>
-               		
-               		</div>
-               		</Router>*/}*/

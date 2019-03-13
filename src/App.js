@@ -12,10 +12,10 @@ class App extends Component {
       	<Router>
       		<div>
       			<Switch>
-      				<Route path="/index" component={Index}></Route>
-      				<Route path="/list" component={List}></Route>
+      				<Route path="/index/index" component={Index}></Route>
+      				<Route path="/index/list" component={List}></Route>
 							
-              <Redirect to="/index"/>
+              <Redirect to="/index/index"/>
       				
       			</Switch>
       		</div>

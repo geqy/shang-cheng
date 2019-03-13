@@ -13,28 +13,28 @@ class Index extends React.Component {
 				<Router>
 				  <div className='index'>
 					<Switch>
-						<Route path="/home" component={Home}></Route>
-						<Route path="/fenlei" component={Fenlei}></Route>
-						<Route path="/cart" component={Cart}></Route>
-						<Route path="/my" component={My}></Route>
+						<Route path="/index/home" component={Home}></Route>
+						<Route path="/index/fenlei" component={Fenlei}></Route>
+						<Route path="/index/cart" component={Cart}></Route>
+						<Route path="/index/my" component={My}></Route>
                            
-                        <Redirect to="/home"/>						
+                        <Redirect to="/index/home"/>						
 					</Switch>
 					
 					<footer>
-						<NavLink to="/home">
+						<NavLink to="/index/home">
 							<i className="iconfont">&#xe619;</i>
 							<p>首页</p>
 						</NavLink>
-						<NavLink to="/fenlei">
+						<NavLink to="/index/fenlei">
 							<i className="iconfont">&#xe603;</i>
 							<p>分类</p>
 						</NavLink>
-						<NavLink to="/cart">
+						<NavLink to="/index/cart">
 							<i className="iconfont">&#xe726;</i>
 							<p>购物车</p>
 						</NavLink>
-						<NavLink to="/my">
+						<NavLink to="/index/my">
 							<i className="iconfont">&#xe600;</i>
 							<p>我的</p>
 						</NavLink>
